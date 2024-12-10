@@ -217,6 +217,9 @@
     border: 2px solid #E55F00;
     padding: 1em;
     background-color: #ffffff;
+    max-height: 60vh; /* Allow more space */
+    overflow-y: auto;  /* Enable scrolling if content exceeds max height */
+    margin: 0 0 5em 0;
 }
 
 .applicant_main {
