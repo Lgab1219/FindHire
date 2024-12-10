@@ -131,8 +131,7 @@ function uploadApplication($pdo, $postID, $accountID, $fname, $lname, $applicant
     ");
 
     $stmt->execute([$postID, $accountID, $fname, $lname, $applicant_message, $resumeFilePath]);
-
-    $_SESSION['message'] = "Application submitted successfully!";
+    
 }
 
 // Selects specific post by ID
